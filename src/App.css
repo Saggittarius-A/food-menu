@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.menuDisplay {
+  margin:auto;
+  width:300px;
+}
+
+body {
+  text-align: center;
+  color: #222;
+  font-size: 24px; 
+  font-family: sans-serif;
+  background-color: rgb(11, 11, 12);
+}
+
+h2 {
+  color:white;
+  margin: 30px;
+}
+
+.foodList {
+  height: 400px;
+  width: 800px;  
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column; 
+  background-color: grey;
+}
+.foodHead{ 
+  width:2400x;   
+  flex: 1;
+  display: flex;
+  background-color: yellowgreen;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 5px;
+}
+.foodItem{    
+  flex: 1;
+ display: flex;
+  background-color: rgb(7, 7, 7);
+  color:white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  border: 1px solid #222;
+  margin: 2px;
+  border-radius:5%;
+}
+.menuName {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+}
+.countDisplay {
+  padding: 5px 100px 5px 10px;
+  color:black;
+  background-color: yellowgreen;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+.amountDisplay {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  padding: 5px 15px;
+  background: rgb(234, 238, 230);
+  color:black;
+}
+.voteCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.myButton {  
+  display: flex;
+  /*font: 50px;*/
+  outline: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: large;
+};
